@@ -13,6 +13,7 @@
 <body>
     @include('components.header')
     @yield('content')
+    @yield('home')
     @include('components.footer')
 </body>
 

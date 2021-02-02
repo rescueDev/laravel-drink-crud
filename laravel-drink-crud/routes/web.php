@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-/* Route::get('/', function () {
-    return view('home');
-}); */
+Route::get('/', function () {
+    return view('pages.home');
+})->name('home');
 
 //creo rotta con elenco drink
 Route::get('/drinks', 'DrinkController@index')->name('drinks');
