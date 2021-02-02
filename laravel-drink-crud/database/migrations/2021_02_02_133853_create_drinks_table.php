@@ -16,7 +16,7 @@ class CreateDrinksTable extends Migration
         Schema::create('drinks', function (Blueprint $table) {
             $table->id();
             $table->string('name', 60);
-            $table->tinyInteger('alcoholContent')->unsigned();
+            $table->float('alcoholContent')->unsigned();
             $table->integer('price')->unsigned();
 
             $table->timestamps();
