@@ -1,0 +1,38 @@
+.drinks-container {
+    width: 100%;
+    padding: 30px;
+    height: 600px;
+    background-color: purple;
+
+    .single-drink {
+        padding: 30px;
+        box-shadow: 2px 2px 1px slategrey;
+
+        h3 {
+            color: white;
+            padding: 10px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: flex;
+            justify-content: space-around;
+            a {
+                color: white;
+            }
+            .edit-cont {
+                a {
+                    width: 80px;
+                    color: yellow;
+                    border: none;
+                    border-radius: 8px;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

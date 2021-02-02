@@ -1,0 +1,124 @@
+#create-drink,
+#edit-drink {
+  padding: 10px;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+#create-drink input:last-child,
+#edit-drink input:last-child {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: slategrey;
+}
+
+#create-drink input:last-child:hover,
+#edit-drink input:last-child:hover {
+  cursor: pointer;
+}
+
+#create-drink input,
+#create-drink label,
+#edit-drink input,
+#edit-drink label {
+  display: block;
+  margin: 10px auto;
+}
+
+.drinks-container {
+  width: 100%;
+  padding: 30px;
+  height: 600px;
+  background-color: purple;
+}
+
+.drinks-container .single-drink {
+  padding: 30px;
+  box-shadow: 2px 2px 1px slategrey;
+}
+
+.drinks-container .single-drink h3 {
+  color: white;
+  padding: 10px;
+}
+
+.drinks-container ul {
+  list-style-type: none;
+}
+
+.drinks-container ul li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.drinks-container ul li a {
+  color: white;
+}
+
+.drinks-container ul li .edit-cont a {
+  width: 80px;
+  color: yellow;
+  border: none;
+  border-radius: 8px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.button-container {
+  padding: 20px;
+}
+
+.button-container .create-button {
+  border: none;
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: blue;
+}
+
+header {
+  padding-bottom: 20px;
+  height: 10vh;
+  background-color: slategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: salmon;
+  height: calc(100vh - 10vh - 600px);
+}
+
+.home-container {
+  width: 100%;
+  padding: 30px;
+  height: 600px;
+  background-color: tan;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+

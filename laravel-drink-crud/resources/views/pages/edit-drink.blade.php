@@ -1,6 +1,6 @@
 @extends('layouts.main-layout')
 @section('content')
-    <form action="{{ route('update-drink', $drink->id) }}" method="POST">
+    <form id="edit-drink" action="{{ route('update-drink', $drink->id) }}" method="POST">
 
         @csrf
         @method('POST')

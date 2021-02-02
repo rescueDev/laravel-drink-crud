@@ -1,1 +1,18 @@
 //
+//
+@import "./Profiles/form";
+@import "./Profiles/drinks-container";
+@import "./Profiles/create-button";
+@import "./Profiles/header";
+@import "./Profiles/footer";
+@import "./Profiles/home";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
