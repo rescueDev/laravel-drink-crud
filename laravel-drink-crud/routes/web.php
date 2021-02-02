@@ -24,3 +24,6 @@ Route::get('/edit/{id}', 'DrinkController@edit')->name('edit-drink');
 
 //creo rotta per aggiornare drink modificato
 Route::post('/update/{id}', 'DrinkController@update')->name('update-drink');
+
+//creo rotta per eliminare drink
+Route::get('/delete/{id}', 'DrinkController@delete')->name('delete-drink');

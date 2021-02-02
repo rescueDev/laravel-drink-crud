@@ -41,4 +41,10 @@ class DrinkController extends Controller
         $drink->update($request->all());
         return redirect()->route('show-drink', $drink->id);
     }
+    public function delete($id)
+    {
+        $drink = Drink::findOrFail($id);
+        $drink->delete();
+        return redirect()->route('drinks');
+    }
 }

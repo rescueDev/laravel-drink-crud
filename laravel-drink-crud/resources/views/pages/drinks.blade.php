@@ -9,7 +9,7 @@
                         {{ $drink->name }}
                     </a>
                     <a href="{{ route('edit-drink', $drink->id) }}">EDIT</a>
-                    <a href="">DELETE</a>
+                    <a href="{{ route('delete-drink', $drink->id) }}">DELETE</a>
                 </li>
             @endforeach
         </ul>
