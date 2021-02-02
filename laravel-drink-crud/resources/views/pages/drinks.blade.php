@@ -4,7 +4,7 @@
         <ul>
             @foreach ($drinks as $drink)
                 <li>
-                    <a href="">
+                    <a href="{{ route('show-drink', $drink->id) }}">
                         {{ $drink->name }}
                     </a>
                 </li>
