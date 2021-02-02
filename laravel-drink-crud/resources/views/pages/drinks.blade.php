@@ -8,6 +8,8 @@
                     <a href="{{ route('show-drink', $drink->id) }}">
                         {{ $drink->name }}
                     </a>
+                    <a href="{{ route('edit-drink', $drink->id) }}">EDIT</a>
+                    <a href="">DELETE</a>
                 </li>
             @endforeach
         </ul>

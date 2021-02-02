@@ -18,3 +18,9 @@ Route::get('/new/drink', 'DrinkController@create')->name('new-drink');
 
 //creo rotta con post per salvare nuovo drink
 Route::post('/store/drink', 'DrinkController@store')->name('store-drink');
+
+//creo rotta dove modificare il singolo drink
+Route::get('/edit/{id}', 'DrinkController@edit')->name('edit-drink');
+
+//creo rotta per aggiornare drink modificato
+Route::post('/update/{id}', 'DrinkController@update')->name('update-drink');
