@@ -11,6 +11,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(DrinkSeeder::class);
+        $this->call([
+            BottleSeeder::class, //faccio il seeder prima sempre della      tabella senza foreign key
+            DrinkSeeder::class,
+        ]);
     }
 }
